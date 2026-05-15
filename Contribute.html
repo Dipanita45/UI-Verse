@@ -1,136 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contribute - UIverse</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contribute — UIverse</title>
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<div class="container">
+  <div class="container">
 
-  <!-- Sidebar -->
-  <aside class="sidebar">
-    <h2>UIverse</h2>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="button.html">Buttons</a></li>
-      <li><a href="navbar.html">Navbars</a></li>
-      <li><a href="cards.html">Cards</a></li>
-      <li><a href="footer.html">Footer</a></li>
-      <li><a href="form.html">Forms</a></li>
-      <li><a href="color.html">Colors</a></li>
-      <li><a href="about.html">About</a></li>
-      <li class="active"><a href="contribute.html">Contribute</a></li>
-    </ul>
-  </aside>
-
-  <!-- Main -->
-  <main class="main">
-
-    <!-- Hero -->
-    <section class="hero">
-      <h1>Contribute to UIverse 🤝</h1>
-      <p>
-        UIverse is open for everyone. Whether you're a beginner or experienced developer,
-        you can contribute and improve this UI library.
-      </p>
-    </section>
-
-    <!-- Steps -->
-    <section class="features">
-
-      <div class="feature-card">
-        <h3>1️⃣ Fork the Repository</h3>
-        <p>
-          Go to the GitHub repository and click on "Fork" to create your own copy.
-        </p>
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <span>⬡</span>
+        <h2>UIverse</h2>
       </div>
 
-      <div class="feature-card">
-        <h3>2️⃣ Clone the Project</h3>
+      <ul class="sidebar-links">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="button.html"><i class="fa-solid fa-hand-pointer"></i> Buttons</a></li>
+        <li><a href="navbar.html"><i class="fa-solid fa-bars"></i> Navbars</a></li>
+        <li><a href="cards.html"><i class="fa-solid fa-table-cells-large"></i> Cards</a></li>
+        <li><a href="footer.html"><i class="fa-solid fa-window-maximize"></i> Footer</a></li>
+        <li><a href="form.html"><i class="fa-brands fa-wpforms"></i> Forms</a></li>
+        <li><a href="color.html"><i class="fa-solid fa-palette"></i> Colors</a></li>
+        <li><a href="about.html"><i class="fa-regular fa-user"></i> About</a></li>
+
+        <li class="active">
+          <a href="contribute.html">
+            <i class="fa-solid fa-heart"></i>
+            Contribute
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main">
+
+      <!-- HERO -->
+      <section class="hero contribute-hero">
+        <div class="hero-badge">
+          <i class="fa-solid fa-code-branch"></i>
+          Open Source Community
+        </div>
+
+        <h1>Contribute to UIverse 🤝</h1>
+
         <p>
-          Download your forked repository to your local machine using Git.
+          UIverse is an open-source UI library built for developers,
+          designers, and contributors worldwide. Whether you're a beginner
+          or an experienced developer, you can help improve the project by
+          adding beautiful reusable components.
         </p>
-      </div>
 
-      <div class="feature-card">
-        <h3>3️⃣ Add Your Component</h3>
-        <p>
-          Create a new UI component (button, card, form, etc.) using clean HTML, CSS, and JS.
-        </p>
-      </div>
+        <div class="hero-actions">
+          <a href="#" class="explore-btn">
+            <i class="fa-brands fa-github"></i>
+            View GitHub
+          </a>
 
-      <div class="feature-card">
-        <h3>4️⃣ Follow Structure</h3>
-        <p>
-          Keep your code simple, reusable, and properly organized with clear class names.
-        </p>
-      </div>
+          <a href="#steps" class="secondary-btn">
+            Start Contributing
+          </a>
+        </div>
+      </section>
 
-      <div class="feature-card">
-        <h3>5️⃣ Commit & Push</h3>
-        <p>
-          Save your changes and push them to your GitHub fork.
-        </p>
-      </div>
+      <!-- STATS -->
+      <section class="contribute-stats">
 
-      <div class="feature-card">
-        <h3>6️⃣ Create Pull Request</h3>
-        <p>
-          Submit a Pull Request so your component can be reviewed and added to UIverse.
-        </p>
-      </div>
+        <div class="stat-card">
+          <h2>120+</h2>
+          <p>Components</p>
+        </div>
 
-    </section>
+        <div class="stat-card">
+          <h2>500+</h2>
+          <p>Contributors</p>
+        </div>
 
-    <!-- Guidelines -->
-    <section class="hero">
-      <h2>Contribution Guidelines</h2>
-      <p>
-        ✔ Use clean and readable code <br>
-        ✔ Avoid unnecessary libraries <br>
-        ✔ Make components responsive <br>
-        ✔ Add comments where needed <br>
-        ✔ Keep UI modern and simple
-      </p>
-    </section>
+        <div class="stat-card">
+          <h2>100%</h2>
+          <p>Open Source</p>
+        </div>
 
-    <!-- CTA -->
-    <section class="hero">
-      <h2>Ready to Contribute?</h2>
-      <a href="#" class="explore-btn">Go to GitHub →</a>
-    </section>
+        <div class="stat-card">
+          <h2>24/7</h2>
+          <p>Community Support</p>
+        </div>
 
-  </main>
+      </section>
 
-</div>
+      <!-- CONTRIBUTION STEPS -->
+      <section class="features" id="steps">
 
-<!-- Footer -->
-<footer class="footer">
-  <div class="footer-container">
+        <div class="section-heading">
+          <h2>Contribution Workflow</h2>
+          <p>
+            Follow these simple steps to contribute your UI components.
+          </p>
+        </div>
 
-    <div class="footer-col">
-      <h2>UIverse</h2>
-      <p>© 2026 UIverse. All rights reserved.</p>
-    </div>
+        <div class="feature-card">
+          <div class="step-icon">
+            <i class="fa-solid fa-code-fork"></i>
+          </div>
 
-    <div class="footer-col">
-      <h3>Pages</h3>
-      <p>Navbars</p>
-      <p>Forms</p>
-      <p>Buttons</p>
-    </div>
+          <h3>Fork the Repository</h3>
 
-    <div class="footer-col">
-      <h3>Legal</h3>
-      <p>Privacy Policy</p>
-      <p>Terms of Service</p>
-    </div>
+          <p>
+            Create your own copy of the UIverse repository on GitHub.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="step-icon">
+            <i class="fa-solid fa-download"></i>
+          </div>
+
+          <h3>Clone the Project</h3>
+
+          <p>
+            Download your fork locally using Git and start development.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="step-icon">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+
+          <h3>Add Your Component</h3>
+
+          <p>
+            Build reusable UI components using HTML, CSS, and JavaScript.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="step-icon">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </div>
+
+          <h3>Follow Project Structure</h3>
+
+          <p>
+            Use clean class names, responsive layouts, and readable code.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="step-icon">
+            <i class="fa-solid fa-upload"></i>
+          </div>
+
+          <h3>Commit & Push</h3>
+
+          <p>
+            Save your changes and push your branch to GitHub.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="step-icon">
+            <i class="fa-solid fa-code-pull-request"></i>
+          </div>
+
+          <h3>Create Pull Request</h3>
+
+          <p>
+            Submit your pull request so maintainers can review your work.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- GUIDELINES -->
+      <section class="guidelines-section">
+
+        <div class="section-heading">
+          <h2>Contribution Guidelines</h2>
+          <p>
+            Keep the project clean, modern, and beginner-friendly.
+          </p>
+        </div>
+
+        <div class="guidelines-grid">
+
+          <div class="guideline-card">
+            <i class="fa-solid fa-check"></i>
+            <span>Write clean and readable code</span>
+          </div>
+
+          <div class="guideline-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <span>Make all components responsive</span>
+          </div>
+
+          <div class="guideline-card">
+            <i class="fa-solid fa-comments"></i>
+            <span>Add comments where necessary</span>
+          </div>
+
+          <div class="guideline-card">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Avoid unnecessary libraries</span>
+          </div>
+
+          <div class="guideline-card">
+            <i class="fa-solid fa-palette"></i>
+            <span>Maintain modern UI consistency</span>
+          </div>
+
+          <div class="guideline-card">
+            <i class="fa-solid fa-cubes"></i>
+            <span>Create reusable components</span>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- COMMUNITY -->
+      <section class="community-section">
+
+        <div class="community-card">
+
+          <div class="community-content">
+            <span class="community-badge">
+              Developer Community
+            </span>
+
+            <h2>Build UI Components Together 🚀</h2>
+
+            <p>
+              Join the growing UIverse community and contribute modern UI
+              ideas, animations, and reusable frontend components.
+            </p>
+
+            <a href="#" class="explore-btn">
+              Join Community
+            </a>
+          </div>
+
+          <div class="community-preview">
+
+            <div class="community-mini-card">
+              <i class="fa-solid fa-fire"></i>
+              Trending Components
+            </div>
+
+            <div class="community-mini-card">
+              <i class="fa-solid fa-star"></i>
+              Featured Contributors
+            </div>
+
+            <div class="community-mini-card">
+              <i class="fa-solid fa-code"></i>
+              Open PR Reviews
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
 
   </div>
-</footer>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-col brand">
+
+        <h2 class="footer-logo">⬡ UIverse</h2>
+
+        <p>
+          Build modern reusable UI components using HTML, CSS,
+          and JavaScript.
+        </p>
+
+        <div class="socials">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+
+      </div>
+
+      <div class="footer-col">
+        <h3>Explore</h3>
+
+        <ul>
+          <li><a href="button.html">Buttons</a></li>
+          <li><a href="navbar.html">Navbars</a></li>
+          <li><a href="cards.html">Cards</a></li>
+          <li><a href="form.html">Forms</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Resources</h3>
+
+        <ul>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">GitHub Repo</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Legal</h3>
+
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 UIverse. Made with ❤️ for developers worldwide.</p>
+    </div>
+
+  </footer>
 
 </body>
 </html>
